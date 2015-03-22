@@ -1,0 +1,18 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+version = '1.0'
+applicationName = 'feed-media'
+mainClassName = "com.eric.RssDownloadDriver"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	compile 'commons-io:commons-io:+'
+	compile 'com.beust:jcommander:+'
+	compile 'rome:rome:+'
+	compile 'org.blinkenlights.jid3:JID3:+'
+}
