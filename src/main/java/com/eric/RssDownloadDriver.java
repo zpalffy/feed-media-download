@@ -35,6 +35,7 @@ import com.sun.syndication.io.XmlReader;
 public class RssDownloadDriver extends CommandRunner {
 
     // TODO fill in readme.txt
+    // TODO convert to java-utils
 
     private static final String M3U_FILE_NAME = "all.m3u";
 
@@ -406,6 +407,6 @@ public class RssDownloadDriver extends CommandRunner {
     }
 
     public static void main(String[] args) {
-        new RssDownloadDriver().command("rss-downloader", args);
+        new RssDownloadDriver().command("feedmedia", args);
     }
 }

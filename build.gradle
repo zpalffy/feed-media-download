@@ -3,7 +3,7 @@ apply plugin: 'eclipse'
 apply plugin: 'application'
 
 version = '1.0'
-applicationName = 'feed-media'
+applicationName = 'feedmedia'
 mainClassName = "com.eric.RssDownloadDriver"
 
 repositories {
