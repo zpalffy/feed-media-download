@@ -4,7 +4,9 @@ A command-line utility that downloads audio and video files from a given news fe
 
 Why?
 ----
+Plenty of Podcast utilities and GUI applications exist already, why make another one?  I wanted something very simple that ran from a command line.  I wanted to be able to schedule the utility to run whenever I wanted (e.g. via cron or similar) and specify different directories and options for each feed.  Mostly I didn't want to have to install a large OS-specific application, or an app on my devices... I wanted to simply get the audio files and move them where I wanted without requiring application installs.
 
+I use this utility with [BitTorrent Sync](http://www.getsync.com/) and [Dropbox](https://www.dropbox.com) to get podcast audio and video to the devices I want to use.
 
 Download
 --------
