@@ -10,7 +10,7 @@ I use this utility with [BitTorrent Sync](http://www.getsync.com/) and [Dropbox]
 
 Download
 --------
-A built version is [available here](https://dl.dropboxusercontent.com/u/1471909/feedmedia.zip).
+The zip file for the most recent distribution is available [from the latest release page](https://github.com/zpalffy/feed-media-download/releases/latest).
 
 Building
 --------
